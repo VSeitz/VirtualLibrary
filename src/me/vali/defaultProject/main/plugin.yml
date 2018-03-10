@@ -1,0 +1,20 @@
+name: BEISPIELNAME
+version: 1.0
+main: me.vali.MAIN.start
+author: vali10e
+depend: [VirtualLibrary]
+
+commands:
+  COMMAND:
+    description: BESCHREIBUNG
+    aliases: [COMMAND1, COMMAND2]
+    permission: PERMISSION.COMMAND
+    usage: Syntax error! Simply type /&lt;COMMAND&gt;.
+
+permissions:
+  PERMISSION.*:
+    description: BESCHREIBUNG
+    children:
+      PERMISSION.P1: true
+      PERMISSION.P2: true
+      PERMISSION.P3.P31: true

@@ -1,0 +1,15 @@
+name: VirtualLibrary
+version: 5.2.1
+main: me.vali.Virtual.main.start
+author: vali10e
+commands:
+  voidworld:
+    description: shows the voidworld Syntax
+  virtual:
+    description: VirtualLibrary command
+  virtuallib:
+    description: VirtualLibrary command
+  vl:
+    description: VirtualLibrary command
+  coins:
+    description: Coins command
